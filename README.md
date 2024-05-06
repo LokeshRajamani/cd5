@@ -1,4 +1,5 @@
 # Ex-5-RECOGNITION-OF-A-VALID-ARITHMETIC-EXPRESSION-THAT-USES-OPERATOR-AND-USING-YACC
+# Date: 06.03.2024
 # AIM:
 To write a yacc program to recognize a valid arithmetic expression that uses operator +,- ,* and /.
 # ALGORITHM:
@@ -13,7 +14,6 @@ To write a yacc program to recognize a valid arithmetic expression that uses ope
 # PROGRAM:
 
 ```
-Program name:ex5.l
 %{
 /* This LEX program returns the tokens for the expression */
 #include "y.tab.h"
